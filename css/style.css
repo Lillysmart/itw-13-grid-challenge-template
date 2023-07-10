@@ -59,7 +59,7 @@ a {
 /* ===== main ====== */
 
 main { display: grid;
-    grid-template-columns:3fr 1fr;
+    grid-template-columns:5fr 1fr;
 
     
 }
@@ -87,8 +87,10 @@ main { display: grid;
 /* ===== Category ===== */
 
 .categories {
-    text-align: center;
-}
+    text-align: center; 
+    display: grid;  
+    grid-template-columns: repeat(3,1fr);}
+
 
 .category {
     padding: 5px;
