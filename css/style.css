@@ -58,11 +58,13 @@ a {
 
 /* ===== main ====== */
 
-main {
+main { display: grid;
+    grid-template-columns:3fr 1fr;
 
+    
 }
 
-.main-content {
+.main-content { grid-column: ;
     padding: 1.25rem;
     margin-bottom: 2rem;
 }
@@ -71,6 +73,7 @@ main {
 .aside-content {
     position: sticky;
     top: 5rem;
+    grid-column:4fr ;
 }
 .aside-link:hover {
     border-radius: 7px;
@@ -120,12 +123,15 @@ button:hover {
 
 /* ===== Footer ====== */
 
-#footer {
+#footer { display: grid;
+    grid-template-columns: 3fr,1fr,4fr;
     background-color: rgb(31, 31, 31);
     color: white;
 
     padding: 2rem;
     text-align: center;
+
+
 }
 
 #footer > div {
